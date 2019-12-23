@@ -4,5 +4,5 @@ Get Things Done
 
 # cmd
 
->>> node
+> node
 + npm list -g --depth 0
