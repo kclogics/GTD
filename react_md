@@ -1,9 +1,9 @@
 reacthooks
--useState
+-useState = 
 -useRef
 -useEffect
 
--useContext
--useReducer
--useCallback
--useMemo
+-useContext = to pass config data down he component tree withput prop drilling
+-useReducer = to oraganize out state management 
+-useCallback = performance gain by not re re-rendering on every button click
+-useMemo = to cache some data on client
