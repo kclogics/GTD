@@ -1,7 +1,7 @@
 reacthooks
--useState = 
--useRef
--useEffect
+-useState = lets us track state
+-useRef = control to get DOM elements when other means are not so straight forward
+-useEffect = clean way to set things when component start and finish
 
 -useContext = to pass config data down he component tree withput prop drilling
 -useReducer = to oraganize out state management 
