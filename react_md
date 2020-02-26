@@ -7,3 +7,9 @@ reacthooks
 -useReducer = to oraganize out state management 
 -useCallback = performance gain by not re re-rendering on every button click
 -useMemo = to cache some data on client
+
+
+Authentication:
+
+when a user first authenticates to a website in a browser, that user can comeback later and assume the same identity again as 
+was first establishment
