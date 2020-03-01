@@ -12,7 +12,7 @@ postman tests:
  });
  
  
- const  titleIsDefined = (task) => {
+const  titleIsDefined = (task) => {
   return task.name !== undefined;
  }
   pm.test("ALL books should have a title", function() {
