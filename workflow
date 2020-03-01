@@ -10,3 +10,14 @@ postman tests:
         return task.name !== undefined;
     })).to.be.true;
  });
+ 
+ 
+ 
+ 
+ const  titleIsDefined = (book) => {
+  return task.name !== undefined;
+ }
+  pm.test("ALL books should have a title", function() {
+    const tasks = pm.response.json();
+    pm.expect(tasks.every(titleIsDefined ).to.be.true;
+ });
