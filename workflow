@@ -4,8 +4,9 @@ https://www.codementor.io/@olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sg
 
 postman tests:
 
-pm.test("ALL books should have a title", function() {
-  const books = pm.response.json();
-  pm.expect(books.every((book) => {
-        return book.title != undefined;
-})).to.be.true;
+ pm.test("ALL books should have a title", function() {
+    const tasks = pm.response.json();
+    pm.expect(tasks.every((task) => {
+        return task.name !== undefined;
+    })).to.be.true;
+ });
