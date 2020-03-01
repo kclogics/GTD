@@ -20,11 +20,10 @@ const  titleIsDefined = (task) => {
     pm.expect(tasks.every(titleIsDefined)).to.be.true;
  });
  
- 
  const moment = require('moment');
  pm.test("Create date is equal to today", function() {
- const data = pm.response.json();
- pm.expect(moment(data.createdAt).format('MM/DD/YYYY')).to.eql(moment().format('MM/DD/YYYY));
- });
+ const tasks = _.result(pm, 'response.json');
  
+ pm.expect(moment(tasks.Created_date).format('MM/DD/YYYY')).to.eql(moment().format('MM/DD/YYYY'));
+ });
  
