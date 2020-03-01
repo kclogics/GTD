@@ -1,0 +1,22 @@
+raw code
+
+>>Headers
+KEY: Content-Type
+VALUE: application/json
+>>Body
+ {
+ "name": "mohit"
+ }
+ 
+ >>Pretty
+ {
+    "status": [
+        "pending"
+    ],
+    "_id": "5e5c3f26590ac42908e1fdc2",
+    "name": "mohit",
+    "Created_date": "2020-03-01T23:03:02.248Z",
+    "__v": 0
+}
+
+-------------------------------------------
