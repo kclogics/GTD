@@ -23,3 +23,4 @@ VALUE: application/json
 
 
 + Global vairiable in postman
+"userId" : {{userID}}
